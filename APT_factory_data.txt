@@ -1,0 +1,1033 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc type="REALTIME" subtype="PREVIEW" date="2022Y-04M-18D 03:24:18">
+	<device name="MCDR2-EB241" model="APATIT06"
+production="2017-09-23" fw="3.10F" />
+	<rtvalues activech="3" ch1="EHZ_" ch2="EHN_" ch3="EHE_" sps="50"
+totalsamples="500">
+		<block index="0" time="1650252248">
+			<sample index="0" ch1="270080" ch2="-768"
+ch3="-1536" />
+			<sample index="0" ch1="260352" ch2="-1280"
+ch3="-1024" />
+			<sample index="0" ch1="250624" ch2="-1536"
+ch3="-256" />
+			<sample index="0" ch1="269312" ch2="-1792"
+ch3="-512" />
+			<sample index="0" ch1="259584" ch2="-2304"
+ch3="-256" />
+			<sample index="0" ch1="244992" ch2="-768"
+ch3="-2304" />
+			<sample index="0" ch1="281600" ch2="-1024"
+ch3="-256" />
+			<sample index="0" ch1="244992" ch2="-512"
+ch3="-1024" />
+			<sample index="0" ch1="263168" ch2="-1280"
+ch3="-1536" />
+			<sample index="0" ch1="268800" ch2="-1024"
+ch3="-1280" />
+			<sample index="0" ch1="244736" ch2="-2048"
+ch3="-1536" />
+			<sample index="0" ch1="260608" ch2="-768"
+ch3="-512" />
+			<sample index="0" ch1="271360" ch2="-2048"
+ch3="-1280" />
+			<sample index="0" ch1="242688" ch2="-768"
+ch3="-1536" />
+			<sample index="0" ch1="271616" ch2="-1792"
+ch3="-1024" />
+			<sample index="0" ch1="252928" ch2="-1280"
+ch3="-512" />
+			<sample index="0" ch1="252672" ch2="-256"
+ch3="-1280" />
+			<sample index="0" ch1="281600" ch2="-1024"
+ch3="-1024" />
+			<sample index="0" ch1="228352" ch2="-3072"
+ch3="-2560" />
+			<sample index="0" ch1="276736" ch2="-1024"
+ch3="0" />
+			<sample index="0" ch1="259584" ch2="-2304"
+ch3="-2048" />
+			<sample index="0" ch1="262144" ch2="-1024"
+ch3="-768" />
+			<sample index="0" ch1="253952" ch2="-1792"
+ch3="-1792" />
+			<sample index="0" ch1="241920" ch2="-1280"
+ch3="-1280" />
+			<sample index="0" ch1="283392" ch2="-1792"
+ch3="-1024" />
+			<sample index="0" ch1="256512" ch2="-1536"
+ch3="-768" />
+			<sample index="0" ch1="256000" ch2="-512"
+ch3="-1536" />
+			<sample index="0" ch1="259584" ch2="-1024"
+ch3="-768" />
+			<sample index="0" ch1="252672" ch2="-1792"
+ch3="-1536" />
+			<sample index="0" ch1="267520" ch2="-768"
+ch3="-768" />
+			<sample index="0" ch1="267264" ch2="-2048"
+ch3="-1024" />
+			<sample index="0" ch1="240384" ch2="-1792"
+ch3="-1792" />
+			<sample index="0" ch1="263424" ch2="-1024"
+ch3="-1280" />
+			<sample index="0" ch1="269568" ch2="-1536"
+ch3="-512" />
+			<sample index="0" ch1="250112" ch2="-1280"
+ch3="-1280" />
+			<sample index="0" ch1="258816" ch2="-1536"
+ch3="512" />
+			<sample index="0" ch1="266752" ch2="-1536"
+ch3="-1024" />
+			<sample index="0" ch1="252416" ch2="-1536"
+ch3="-768" />
+			<sample index="0" ch1="262912" ch2="-1536"
+ch3="-1536" />
+			<sample index="0" ch1="263168" ch2="-1280"
+ch3="-768" />
+			<sample index="0" ch1="248320" ch2="-1792"
+ch3="-768" />
+			<sample index="0" ch1="281344" ch2="-1280"
+ch3="-256" />
+			<sample index="0" ch1="235776" ch2="-1024"
+ch3="-2304" />
+			<sample index="0" ch1="276224" ch2="-1536"
+ch3="-1536" />
+			<sample index="0" ch1="249088" ch2="-1792"
+ch3="-1024" />
+			<sample index="0" ch1="264192" ch2="-1024"
+ch3="-512" />
+			<sample index="0" ch1="262912" ch2="-1024"
+ch3="-256" />
+			<sample index="0" ch1="244480" ch2="-1024"
+ch3="-1792" />
+			<sample index="0" ch1="264448" ch2="-512"
+ch3="-768" />
+			<sample index="0" ch1="273408" ch2="-1280"
+ch3="-1024" />
+		</block>
+
+		<block index="1" time="1650252249">
+			<sample index="1" ch1="246272" ch2="-1024"
+ch3="-1536" />
+			<sample index="1" ch1="265728" ch2="-1792"
+ch3="-1024" />
+			<sample index="1" ch1="250368" ch2="-512"
+ch3="-768" />
+			<sample index="1" ch1="276992" ch2="-2560"
+ch3="-1280" />
+			<sample index="1" ch1="251392" ch2="-1536"
+ch3="-1280" />
+			<sample index="1" ch1="256000" ch2="-1536"
+ch3="-768" />
+			<sample index="1" ch1="264448" ch2="-1024"
+ch3="-1024" />
+			<sample index="1" ch1="261376" ch2="-2304"
+ch3="-512" />
+			<sample index="1" ch1="254720" ch2="-1792"
+ch3="-768" />
+			<sample index="1" ch1="260608" ch2="-1024"
+ch3="-256" />
+			<sample index="1" ch1="260864" ch2="-1792"
+ch3="-512" />
+			<sample index="1" ch1="259328" ch2="-1280"
+ch3="-1792" />
+			<sample index="1" ch1="246016" ch2="-1792"
+ch3="-512" />
+			<sample index="1" ch1="278528" ch2="-1280"
+ch3="-1280" />
+			<sample index="1" ch1="251136" ch2="-1536"
+ch3="-256" />
+			<sample index="1" ch1="265984" ch2="-1792"
+ch3="-1792" />
+			<sample index="1" ch1="252416" ch2="-768"
+ch3="-768" />
+			<sample index="1" ch1="256000" ch2="-2048"
+ch3="-1024" />
+			<sample index="1" ch1="266240" ch2="-1792"
+ch3="-1280" />
+			<sample index="1" ch1="261376" ch2="-1024"
+ch3="-1280" />
+			<sample index="1" ch1="262912" ch2="-768"
+ch3="-1280" />
+			<sample index="1" ch1="243456" ch2="-2048"
+ch3="-768" />
+			<sample index="1" ch1="267008" ch2="-1280"
+ch3="-1024" />
+			<sample index="1" ch1="264704" ch2="-1280"
+ch3="-1792" />
+			<sample index="1" ch1="250368" ch2="-1536"
+ch3="-1792" />
+			<sample index="1" ch1="273664" ch2="-1536"
+ch3="-1536" />
+			<sample index="1" ch1="249344" ch2="-2048"
+ch3="0" />
+			<sample index="1" ch1="255744" ch2="-2048"
+ch3="-1536" />
+			<sample index="1" ch1="275968" ch2="-1024"
+ch3="-1024" />
+			<sample index="1" ch1="241152" ch2="-1280"
+ch3="-768" />
+			<sample index="1" ch1="268544" ch2="-1536"
+ch3="-1536" />
+			<sample index="1" ch1="254720" ch2="-1536"
+ch3="-768" />
+			<sample index="1" ch1="264192" ch2="-2048"
+ch3="0" />
+			<sample index="1" ch1="262912" ch2="-1280"
+ch3="-768" />
+			<sample index="1" ch1="253440" ch2="-1280"
+ch3="-768" />
+			<sample index="1" ch1="259328" ch2="-1792"
+ch3="-1024" />
+			<sample index="1" ch1="256000" ch2="-1280"
+ch3="-512" />
+			<sample index="1" ch1="266752" ch2="-2304"
+ch3="-1280" />
+			<sample index="1" ch1="257536" ch2="-1792"
+ch3="-256" />
+			<sample index="1" ch1="250112" ch2="-1536"
+ch3="-1280" />
+			<sample index="1" ch1="279040" ch2="-1280"
+ch3="-512" />
+			<sample index="1" ch1="239104" ch2="-1792"
+ch3="-512" />
+			<sample index="1" ch1="270336" ch2="-2304"
+ch3="-768" />
+			<sample index="1" ch1="260352" ch2="-2048"
+ch3="-1280" />
+			<sample index="1" ch1="249344" ch2="-1792"
+ch3="-512" />
+			<sample index="1" ch1="270336" ch2="-1280"
+ch3="0" />
+			<sample index="1" ch1="253952" ch2="-2560"
+ch3="-1792" />
+			<sample index="1" ch1="260864" ch2="-1024"
+ch3="-1024" />
+			<sample index="1" ch1="259840" ch2="-1792"
+ch3="-768" />
+			<sample index="1" ch1="260864" ch2="-1792"
+ch3="-256" />
+		</block>
+
+		<block index="2" time="1650252250">
+			<sample index="2" ch1="257280" ch2="-1792"
+ch3="-768" />
+			<sample index="2" ch1="260864" ch2="-1024"
+ch3="-512" />
+			<sample index="2" ch1="262400" ch2="-1280"
+ch3="-1536" />
+			<sample index="2" ch1="250880" ch2="-2048"
+ch3="-768" />
+			<sample index="2" ch1="270336" ch2="-2048"
+ch3="-1024" />
+			<sample index="2" ch1="246784" ch2="-1536"
+ch3="-256" />
+			<sample index="2" ch1="272384" ch2="-1536"
+ch3="-1536" />
+			<sample index="2" ch1="259328" ch2="-768"
+ch3="-768" />
+			<sample index="2" ch1="253440" ch2="-1792"
+ch3="-1280" />
+			<sample index="2" ch1="264960" ch2="-768" ch3="0" />
+			<sample index="2" ch1="257792" ch2="-1792"
+ch3="-512" />
+			<sample index="2" ch1="237568" ch2="-1792"
+ch3="0" />
+			<sample index="2" ch1="297984" ch2="-1536"
+ch3="-1024" />
+			<sample index="2" ch1="233472" ch2="-1536"
+ch3="-1792" />
+			<sample index="2" ch1="263168" ch2="-1280"
+ch3="-1024" />
+			<sample index="2" ch1="261120" ch2="-1536"
+ch3="-1792" />
+			<sample index="2" ch1="261120" ch2="-1280"
+ch3="-768" />
+			<sample index="2" ch1="252928" ch2="-1280"
+ch3="-1024" />
+			<sample index="2" ch1="265472" ch2="-1792"
+ch3="0" />
+			<sample index="2" ch1="263168" ch2="-1536"
+ch3="-1024" />
+			<sample index="2" ch1="257024" ch2="-1536"
+ch3="-1280" />
+			<sample index="2" ch1="257024" ch2="-256"
+ch3="-512" />
+			<sample index="2" ch1="262144" ch2="-512"
+ch3="-1024" />
+			<sample index="2" ch1="255744" ch2="-1792"
+ch3="-1536" />
+			<sample index="2" ch1="272384" ch2="-1280"
+ch3="-2048" />
+			<sample index="2" ch1="251904" ch2="-512"
+ch3="256" />
+			<sample index="2" ch1="247296" ch2="-1536"
+ch3="-768" />
+			<sample index="2" ch1="279296" ch2="-768"
+ch3="-768" />
+			<sample index="2" ch1="243712" ch2="-1280"
+ch3="-1024" />
+			<sample index="2" ch1="268288" ch2="-1792"
+ch3="-1792" />
+			<sample index="2" ch1="265216" ch2="-2048"
+ch3="-512" />
+			<sample index="2" ch1="255488" ch2="-768"
+ch3="-1024" />
+			<sample index="2" ch1="251904" ch2="-2048"
+ch3="-1536" />
+			<sample index="2" ch1="275456" ch2="-1280"
+ch3="-768" />
+			<sample index="2" ch1="249088" ch2="-1536"
+ch3="-256" />
+			<sample index="2" ch1="252928" ch2="-1792"
+ch3="-1792" />
+			<sample index="2" ch1="288000" ch2="-1792"
+ch3="0" />
+			<sample index="2" ch1="216064" ch2="-1536"
+ch3="-1280" />
+			<sample index="2" ch1="286464" ch2="-1792"
+ch3="-768" />
+			<sample index="2" ch1="267008" ch2="-1280"
+ch3="-512" />
+			<sample index="2" ch1="231424" ch2="-768"
+ch3="-512" />
+			<sample index="2" ch1="291840" ch2="-1024"
+ch3="-768" />
+			<sample index="2" ch1="238336" ch2="-1024"
+ch3="-512" />
+			<sample index="2" ch1="255744" ch2="-1536"
+ch3="-1536" />
+			<sample index="2" ch1="280576" ch2="-1536"
+ch3="-512" />
+			<sample index="2" ch1="242944" ch2="-1536"
+ch3="-1024" />
+			<sample index="2" ch1="266240" ch2="-1024"
+ch3="-512" />
+			<sample index="2" ch1="268032" ch2="-2560"
+ch3="-1024" />
+			<sample index="2" ch1="241664" ch2="-1536"
+ch3="-1280" />
+			<sample index="2" ch1="270592" ch2="-2048"
+ch3="-512" />
+		</block>
+
+		<block index="3" time="1650252251">
+			<sample index="3" ch1="257280" ch2="-512"
+ch3="-512" />
+			<sample index="3" ch1="253696" ch2="-768"
+ch3="-1280" />
+			<sample index="3" ch1="265216" ch2="-1280"
+ch3="-2048" />
+			<sample index="3" ch1="262912" ch2="-2304"
+ch3="-512" />
+			<sample index="3" ch1="252928" ch2="-768" ch3="0" />
+			<sample index="3" ch1="258816" ch2="-1792"
+ch3="-1024" />
+			<sample index="3" ch1="262144" ch2="-1280"
+ch3="-512" />
+			<sample index="3" ch1="252928" ch2="-768"
+ch3="-1280" />
+			<sample index="3" ch1="274176" ch2="-1792"
+ch3="-1024" />
+			<sample index="3" ch1="246016" ch2="-1280"
+ch3="-512" />
+			<sample index="3" ch1="260352" ch2="-2048"
+ch3="-1024" />
+			<sample index="3" ch1="275712" ch2="-1536"
+ch3="-512" />
+			<sample index="3" ch1="235520" ch2="-1024"
+ch3="-768" />
+			<sample index="3" ch1="281600" ch2="-1792"
+ch3="-1280" />
+			<sample index="3" ch1="241408" ch2="-1536"
+ch3="-768" />
+			<sample index="3" ch1="269312" ch2="-1792"
+ch3="0" />
+			<sample index="3" ch1="257024" ch2="-1024"
+ch3="-768" />
+			<sample index="3" ch1="260864" ch2="-2048"
+ch3="-1280" />
+			<sample index="3" ch1="265472" ch2="-1536"
+ch3="-256" />
+			<sample index="3" ch1="252416" ch2="-1024"
+ch3="-1536" />
+			<sample index="3" ch1="262144" ch2="-2304"
+ch3="-1280" />
+			<sample index="3" ch1="261632" ch2="-1792"
+ch3="-1280" />
+			<sample index="3" ch1="250880" ch2="-1536"
+ch3="-1024" />
+			<sample index="3" ch1="264960" ch2="-1280"
+ch3="-768" />
+			<sample index="3" ch1="262400" ch2="-1024"
+ch3="-256" />
+			<sample index="3" ch1="265728" ch2="-1536"
+ch3="-512" />
+			<sample index="3" ch1="245248" ch2="-2048"
+ch3="-512" />
+			<sample index="3" ch1="274432" ch2="-1536"
+ch3="-768" />
+			<sample index="3" ch1="241408" ch2="-1024"
+ch3="-768" />
+			<sample index="3" ch1="269312" ch2="-1792"
+ch3="-1024" />
+			<sample index="3" ch1="268032" ch2="-2048"
+ch3="-512" />
+			<sample index="3" ch1="253952" ch2="-512"
+ch3="-1024" />
+			<sample index="3" ch1="248064" ch2="-1536"
+ch3="-512" />
+			<sample index="3" ch1="280320" ch2="-1792"
+ch3="-1280" />
+			<sample index="3" ch1="233216" ch2="-1792"
+ch3="-1280" />
+			<sample index="3" ch1="284160" ch2="-1280"
+ch3="-768" />
+			<sample index="3" ch1="249088" ch2="-2048"
+ch3="-1280" />
+			<sample index="3" ch1="257792" ch2="-1536"
+ch3="256" />
+			<sample index="3" ch1="261632" ch2="-1536"
+ch3="-256" />
+			<sample index="3" ch1="254464" ch2="-256"
+ch3="-1536" />
+			<sample index="3" ch1="265472" ch2="-2048"
+ch3="-1024" />
+			<sample index="3" ch1="264192" ch2="-2048"
+ch3="-768" />
+			<sample index="3" ch1="251648" ch2="-512"
+ch3="-256" />
+			<sample index="3" ch1="255232" ch2="-1536"
+ch3="-768" />
+			<sample index="3" ch1="274944" ch2="-1280"
+ch3="-1792" />
+			<sample index="3" ch1="240896" ch2="-2304"
+ch3="-512" />
+			<sample index="3" ch1="261376" ch2="-2048"
+ch3="-1536" />
+			<sample index="3" ch1="279296" ch2="-1536"
+ch3="-1536" />
+			<sample index="3" ch1="225024" ch2="-512"
+ch3="-1536" />
+			<sample index="3" ch1="293888" ch2="-2560"
+ch3="-768" />
+		</block>
+
+		<block index="4" time="1650252252">
+			<sample index="4" ch1="252672" ch2="-2048"
+ch3="-1280" />
+			<sample index="4" ch1="242688" ch2="-768"
+ch3="-512" />
+			<sample index="4" ch1="282112" ch2="-2560"
+ch3="-768" />
+			<sample index="4" ch1="242432" ch2="-1792"
+ch3="-1280" />
+			<sample index="4" ch1="258304" ch2="-768"
+ch3="-1024" />
+			<sample index="4" ch1="283904" ch2="-1536"
+ch3="-1280" />
+			<sample index="4" ch1="234752" ch2="-1792"
+ch3="-512" />
+			<sample index="4" ch1="273152" ch2="-768"
+ch3="-1792" />
+			<sample index="4" ch1="262656" ch2="-2560"
+ch3="-1280" />
+			<sample index="4" ch1="246272" ch2="-2048"
+ch3="-768" />
+			<sample index="4" ch1="274176" ch2="-1536"
+ch3="-1024" />
+			<sample index="4" ch1="246784" ch2="-1280"
+ch3="-1536" />
+			<sample index="4" ch1="266496" ch2="-512"
+ch3="-1280" />
+			<sample index="4" ch1="249856" ch2="-2048"
+ch3="-768" />
+			<sample index="4" ch1="277760" ch2="-1792"
+ch3="-1024" />
+			<sample index="4" ch1="240384" ch2="-1792"
+ch3="-256" />
+			<sample index="4" ch1="272640" ch2="-2304"
+ch3="256" />
+			<sample index="4" ch1="261120" ch2="-768"
+ch3="-1280" />
+			<sample index="4" ch1="245504" ch2="-1280"
+ch3="-1024" />
+			<sample index="4" ch1="275712" ch2="-1792"
+ch3="-1024" />
+			<sample index="4" ch1="254464" ch2="-2560"
+ch3="-1280" />
+			<sample index="4" ch1="251392" ch2="-1536"
+ch3="-1280" />
+			<sample index="4" ch1="270592" ch2="-1280"
+ch3="-768" />
+			<sample index="4" ch1="255232" ch2="-1280"
+ch3="-768" />
+			<sample index="4" ch1="265984" ch2="-1024"
+ch3="256" />
+			<sample index="4" ch1="233728" ch2="-2304"
+ch3="-1024" />
+			<sample index="4" ch1="290560" ch2="-1792"
+ch3="-1024" />
+			<sample index="4" ch1="246016" ch2="-768" ch3="0" />
+			<sample index="4" ch1="253952" ch2="-1792"
+ch3="-1024" />
+			<sample index="4" ch1="273408" ch2="-1792"
+ch3="-512" />
+			<sample index="4" ch1="247296" ch2="-1792"
+ch3="-768" />
+			<sample index="4" ch1="263936" ch2="-2048"
+ch3="-512" />
+			<sample index="4" ch1="265728" ch2="-512"
+ch3="-1024" />
+			<sample index="4" ch1="247040" ch2="-1792"
+ch3="-512" />
+			<sample index="4" ch1="268800" ch2="-512"
+ch3="-512" />
+			<sample index="4" ch1="260096" ch2="-2048"
+ch3="-768" />
+			<sample index="4" ch1="252928" ch2="-1536"
+ch3="-1536" />
+			<sample index="4" ch1="257536" ch2="-2048"
+ch3="-512" />
+			<sample index="4" ch1="264192" ch2="-1792"
+ch3="-768" />
+			<sample index="4" ch1="256768" ch2="-1792"
+ch3="-512" />
+			<sample index="4" ch1="262912" ch2="-1024"
+ch3="-1536" />
+			<sample index="4" ch1="261632" ch2="-1792"
+ch3="0" />
+			<sample index="4" ch1="252416" ch2="-1536"
+ch3="-768" />
+			<sample index="4" ch1="261376" ch2="-1280"
+ch3="-768" />
+			<sample index="4" ch1="266240" ch2="-1280"
+ch3="-768" />
+			<sample index="4" ch1="246272" ch2="0" ch3="0" />
+			<sample index="4" ch1="277504" ch2="-2304"
+ch3="-1024" />
+			<sample index="4" ch1="241664" ch2="-768"
+ch3="-768" />
+			<sample index="4" ch1="267008" ch2="-1792"
+ch3="-256" />
+			<sample index="4" ch1="258816" ch2="-1024"
+ch3="-512" />
+		</block>
+
+		<block index="5" time="1650252253">
+			<sample index="5" ch1="252160" ch2="-1024"
+ch3="-1024" />
+			<sample index="5" ch1="265984" ch2="-1024"
+ch3="-1536" />
+			<sample index="5" ch1="259840" ch2="-512"
+ch3="-256" />
+			<sample index="5" ch1="248064" ch2="-1792"
+ch3="-256" />
+			<sample index="5" ch1="281088" ch2="-768"
+ch3="-1024" />
+			<sample index="5" ch1="237056" ch2="-1792"
+ch3="-1024" />
+			<sample index="5" ch1="276224" ch2="-1280"
+ch3="-1024" />
+			<sample index="5" ch1="257792" ch2="-1536"
+ch3="-1280" />
+			<sample index="5" ch1="258048" ch2="-2048"
+ch3="-1024" />
+			<sample index="5" ch1="247040" ch2="-1792"
+ch3="-1280" />
+			<sample index="5" ch1="284160" ch2="-256"
+ch3="-256" />
+			<sample index="5" ch1="235008" ch2="-2048"
+ch3="-1792" />
+			<sample index="5" ch1="267008" ch2="-768"
+ch3="-512" />
+			<sample index="5" ch1="279040" ch2="-1792"
+ch3="-1024" />
+			<sample index="5" ch1="227072" ch2="-1792"
+ch3="-1024" />
+			<sample index="5" ch1="282624" ch2="-1792"
+ch3="-768" />
+			<sample index="5" ch1="255744" ch2="-2048"
+ch3="-1024" />
+			<sample index="5" ch1="239104" ch2="-2560"
+ch3="-1536" />
+			<sample index="5" ch1="292352" ch2="-1280"
+ch3="-1280" />
+			<sample index="5" ch1="236288" ch2="-2304"
+ch3="-768" />
+			<sample index="5" ch1="261632" ch2="-1280"
+ch3="-256" />
+			<sample index="5" ch1="267776" ch2="-1536"
+ch3="-512" />
+			<sample index="5" ch1="248064" ch2="-1792"
+ch3="0" />
+			<sample index="5" ch1="265984" ch2="-2048"
+ch3="-1024" />
+			<sample index="5" ch1="261632" ch2="-768"
+ch3="-1024" />
+			<sample index="5" ch1="262144" ch2="-512"
+ch3="-768" />
+			<sample index="5" ch1="253952" ch2="-1536"
+ch3="-1024" />
+			<sample index="5" ch1="257280" ch2="-1792"
+ch3="-1280" />
+			<sample index="5" ch1="272128" ch2="-1536"
+ch3="0" />
+			<sample index="5" ch1="241664" ch2="-1280"
+ch3="-2304" />
+			<sample index="5" ch1="273408" ch2="-2304"
+ch3="-512" />
+			<sample index="5" ch1="259072" ch2="-1280"
+ch3="-1024" />
+			<sample index="5" ch1="255488" ch2="-1024"
+ch3="-256" />
+			<sample index="5" ch1="261888" ch2="-2048"
+ch3="-1536" />
+			<sample index="5" ch1="258816" ch2="-1024"
+ch3="-1280" />
+			<sample index="5" ch1="255744" ch2="-1792"
+ch3="-1792" />
+			<sample index="5" ch1="258048" ch2="-1024"
+ch3="-1280" />
+			<sample index="5" ch1="281344" ch2="-2304"
+ch3="-1536" />
+			<sample index="5" ch1="240896" ch2="-1280"
+ch3="-1280" />
+			<sample index="5" ch1="259584" ch2="-768"
+ch3="-768" />
+			<sample index="5" ch1="270336" ch2="-1536"
+ch3="-1280" />
+			<sample index="5" ch1="233472" ch2="-1536"
+ch3="-1280" />
+			<sample index="5" ch1="298240" ch2="-1024"
+ch3="-768" />
+			<sample index="5" ch1="240128" ch2="-1792"
+ch3="-2048" />
+			<sample index="5" ch1="256256" ch2="-2048"
+ch3="-1024" />
+			<sample index="5" ch1="273152" ch2="-512"
+ch3="-1536" />
+			<sample index="5" ch1="247040" ch2="-1024"
+ch3="-512" />
+			<sample index="5" ch1="263424" ch2="-1536"
+ch3="-1536" />
+			<sample index="5" ch1="269568" ch2="-512"
+ch3="-256" />
+			<sample index="5" ch1="245760" ch2="-1792"
+ch3="-512" />
+		</block>
+
+		<block index="6" time="1650252254">
+			<sample index="6" ch1="269824" ch2="-1280"
+ch3="-1024" />
+			<sample index="6" ch1="255232" ch2="-768" ch3="0" />
+			<sample index="6" ch1="243968" ch2="-2304"
+ch3="-1024" />
+			<sample index="6" ch1="272384" ch2="-1792"
+ch3="-1280" />
+			<sample index="6" ch1="262912" ch2="-1536"
+ch3="-1536" />
+			<sample index="6" ch1="251648" ch2="-768"
+ch3="-256" />
+			<sample index="6" ch1="263424" ch2="-1280"
+ch3="-1024" />
+			<sample index="6" ch1="268288" ch2="-1536"
+ch3="-768" />
+			<sample index="6" ch1="232448" ch2="-2048"
+ch3="-768" />
+			<sample index="6" ch1="289792" ch2="-1280"
+ch3="-1792" />
+			<sample index="6" ch1="251904" ch2="-512"
+ch3="-1792" />
+			<sample index="6" ch1="241920" ch2="-512"
+ch3="-1024" />
+			<sample index="6" ch1="288512" ch2="-768"
+ch3="-1024" />
+			<sample index="6" ch1="234496" ch2="-2048"
+ch3="-512" />
+			<sample index="6" ch1="257536" ch2="-1536"
+ch3="-1536" />
+			<sample index="6" ch1="282880" ch2="-1280"
+ch3="-256" />
+			<sample index="6" ch1="246784" ch2="-1792"
+ch3="-1024" />
+			<sample index="6" ch1="258304" ch2="-2048"
+ch3="-512" />
+			<sample index="6" ch1="265984" ch2="-1024"
+ch3="-3072" />
+			<sample index="6" ch1="256512" ch2="-1280"
+ch3="-1280" />
+			<sample index="6" ch1="255232" ch2="-1536"
+ch3="-512" />
+			<sample index="6" ch1="263424" ch2="-2048"
+ch3="-256" />
+			<sample index="6" ch1="260864" ch2="-512"
+ch3="-1792" />
+			<sample index="6" ch1="257536" ch2="-1792"
+ch3="-512" />
+			<sample index="6" ch1="270848" ch2="-1792"
+ch3="-1280" />
+			<sample index="6" ch1="241664" ch2="-768"
+ch3="-768" />
+			<sample index="6" ch1="260608" ch2="-1024"
+ch3="-1024" />
+			<sample index="6" ch1="267520" ch2="-1536"
+ch3="-1024" />
+			<sample index="6" ch1="251392" ch2="-1280"
+ch3="-768" />
+			<sample index="6" ch1="278272" ch2="-1280"
+ch3="-1792" />
+			<sample index="6" ch1="240640" ch2="-768"
+ch3="-512" />
+			<sample index="6" ch1="268032" ch2="-1536"
+ch3="-768" />
+			<sample index="6" ch1="267264" ch2="-2560"
+ch3="-256" />
+			<sample index="6" ch1="239872" ch2="-1536"
+ch3="-512" />
+			<sample index="6" ch1="282880" ch2="-768"
+ch3="-1536" />
+			<sample index="6" ch1="235264" ch2="-1792"
+ch3="-1024" />
+			<sample index="6" ch1="287232" ch2="-1792"
+ch3="-1280" />
+			<sample index="6" ch1="236800" ch2="-1536"
+ch3="-512" />
+			<sample index="6" ch1="263680" ch2="-1792"
+ch3="-768" />
+			<sample index="6" ch1="270336" ch2="-1024"
+ch3="-1280" />
+			<sample index="6" ch1="251904" ch2="-1792"
+ch3="-256" />
+			<sample index="6" ch1="255744" ch2="-1792"
+ch3="-1280" />
+			<sample index="6" ch1="272384" ch2="-1536"
+ch3="-768" />
+			<sample index="6" ch1="245504" ch2="-1280"
+ch3="-512" />
+			<sample index="6" ch1="268032" ch2="-1792"
+ch3="-1792" />
+			<sample index="6" ch1="267520" ch2="-2048"
+ch3="-1280" />
+			<sample index="6" ch1="244480" ch2="-1280"
+ch3="-256" />
+			<sample index="6" ch1="256768" ch2="-1792"
+ch3="-1024" />
+			<sample index="6" ch1="276736" ch2="-1024"
+ch3="-1536" />
+			<sample index="6" ch1="237568" ch2="-1792"
+ch3="-768" />
+		</block>
+
+		<block index="7" time="1650252255">
+			<sample index="7" ch1="271360" ch2="-1280"
+ch3="-256" />
+			<sample index="7" ch1="267264" ch2="-1792"
+ch3="-1280" />
+			<sample index="7" ch1="242688" ch2="-1280"
+ch3="-1792" />
+			<sample index="7" ch1="285440" ch2="-1024"
+ch3="-768" />
+			<sample index="7" ch1="237056" ch2="-2304"
+ch3="-1280" />
+			<sample index="7" ch1="257536" ch2="-1280"
+ch3="-1536" />
+			<sample index="7" ch1="284416" ch2="-1792"
+ch3="-768" />
+			<sample index="7" ch1="230400" ch2="-768"
+ch3="-1024" />
+			<sample index="7" ch1="279808" ch2="-1536"
+ch3="-2048" />
+			<sample index="7" ch1="262912" ch2="-1792"
+ch3="-512" />
+			<sample index="7" ch1="242944" ch2="-2048"
+ch3="-768" />
+			<sample index="7" ch1="274176" ch2="-1792"
+ch3="-1024" />
+			<sample index="7" ch1="255232" ch2="-1280"
+ch3="-768" />
+			<sample index="7" ch1="253696" ch2="-2048"
+ch3="-1280" />
+			<sample index="7" ch1="272640" ch2="-512"
+ch3="-256" />
+			<sample index="7" ch1="252928" ch2="-2304"
+ch3="-1024" />
+			<sample index="7" ch1="254208" ch2="-1536"
+ch3="-1024" />
+			<sample index="7" ch1="271616" ch2="-1536"
+ch3="-1024" />
+			<sample index="7" ch1="254976" ch2="-2048"
+ch3="-2048" />
+			<sample index="7" ch1="251904" ch2="-2048"
+ch3="0" />
+			<sample index="7" ch1="267776" ch2="-1792"
+ch3="-1024" />
+			<sample index="7" ch1="257792" ch2="-1536"
+ch3="-1024" />
+			<sample index="7" ch1="252416" ch2="-1536"
+ch3="-1280" />
+			<sample index="7" ch1="271360" ch2="-1536"
+ch3="-256" />
+			<sample index="7" ch1="243456" ch2="-2048"
+ch3="-1024" />
+			<sample index="7" ch1="274432" ch2="-1792"
+ch3="-768" />
+			<sample index="7" ch1="254208" ch2="-1280"
+ch3="-1280" />
+			<sample index="7" ch1="252160" ch2="-1792"
+ch3="-768" />
+			<sample index="7" ch1="273664" ch2="-1792"
+ch3="-768" />
+			<sample index="7" ch1="242688" ch2="-512"
+ch3="-1024" />
+			<sample index="7" ch1="280320" ch2="-1792"
+ch3="-1280" />
+			<sample index="7" ch1="251136" ch2="-1792"
+ch3="-512" />
+			<sample index="7" ch1="257280" ch2="-1536"
+ch3="-768" />
+			<sample index="7" ch1="267776" ch2="-512"
+ch3="-1024" />
+			<sample index="7" ch1="246272" ch2="-2816"
+ch3="-1536" />
+			<sample index="7" ch1="264960" ch2="-2304"
+ch3="-2048" />
+			<sample index="7" ch1="256000" ch2="-1280"
+ch3="-768" />
+			<sample index="7" ch1="269824" ch2="-1280"
+ch3="-256" />
+			<sample index="7" ch1="251392" ch2="-1024"
+ch3="-1536" />
+			<sample index="7" ch1="258560" ch2="-2304"
+ch3="-2560" />
+			<sample index="7" ch1="260608" ch2="-1280"
+ch3="-256" />
+			<sample index="7" ch1="254464" ch2="-1536"
+ch3="-768" />
+			<sample index="7" ch1="270336" ch2="-1024"
+ch3="-512" />
+			<sample index="7" ch1="256000" ch2="-2048"
+ch3="-1024" />
+			<sample index="7" ch1="249856" ch2="-1280"
+ch3="-1792" />
+			<sample index="7" ch1="277760" ch2="-1280"
+ch3="-1024" />
+			<sample index="7" ch1="240128" ch2="-1536"
+ch3="-1280" />
+			<sample index="7" ch1="278784" ch2="-1536"
+ch3="-1024" />
+			<sample index="7" ch1="241408" ch2="-1536"
+ch3="-768" />
+			<sample index="7" ch1="271360" ch2="-1280"
+ch3="-1280" />
+		</block>
+
+		<block index="8" time="1650252256">
+			<sample index="8" ch1="260608" ch2="-2304"
+ch3="-256" />
+			<sample index="8" ch1="237312" ch2="-1024"
+ch3="-512" />
+			<sample index="8" ch1="288768" ch2="-768"
+ch3="-768" />
+			<sample index="8" ch1="246784" ch2="-1536"
+ch3="0" />
+			<sample index="8" ch1="262400" ch2="-1280"
+ch3="-1536" />
+			<sample index="8" ch1="259328" ch2="-2304"
+ch3="-768" />
+			<sample index="8" ch1="250880" ch2="-2304"
+ch3="-512" />
+			<sample index="8" ch1="269312" ch2="-1024"
+ch3="-256" />
+			<sample index="8" ch1="261376" ch2="-2304"
+ch3="-1024" />
+			<sample index="8" ch1="245504" ch2="-768"
+ch3="-512" />
+			<sample index="8" ch1="285184" ch2="-2048"
+ch3="-1280" />
+			<sample index="8" ch1="246016" ch2="-768"
+ch3="-1024" />
+			<sample index="8" ch1="258304" ch2="-2304"
+ch3="0" />
+			<sample index="8" ch1="253440" ch2="-2048"
+ch3="-1280" />
+			<sample index="8" ch1="278272" ch2="-768"
+ch3="-256" />
+			<sample index="8" ch1="233728" ch2="-1536"
+ch3="-1024" />
+			<sample index="8" ch1="280576" ch2="-1280"
+ch3="-1024" />
+			<sample index="8" ch1="244480" ch2="-2816"
+ch3="512" />
+			<sample index="8" ch1="272384" ch2="-1024"
+ch3="-2304" />
+			<sample index="8" ch1="258048" ch2="-1792"
+ch3="-768" />
+			<sample index="8" ch1="261376" ch2="-2048"
+ch3="-1024" />
+			<sample index="8" ch1="253440" ch2="-2048"
+ch3="-768" />
+			<sample index="8" ch1="265472" ch2="-1280"
+ch3="-768" />
+			<sample index="8" ch1="247040" ch2="-2048"
+ch3="-1536" />
+			<sample index="8" ch1="273408" ch2="-768"
+ch3="-512" />
+			<sample index="8" ch1="251648" ch2="-1792"
+ch3="-2048" />
+			<sample index="8" ch1="270592" ch2="-1024"
+ch3="-768" />
+			<sample index="8" ch1="249856" ch2="-1792"
+ch3="-768" />
+			<sample index="8" ch1="264192" ch2="-2048"
+ch3="-1536" />
+			<sample index="8" ch1="260352" ch2="-1536"
+ch3="-1280" />
+			<sample index="8" ch1="256512" ch2="-512"
+ch3="512" />
+			<sample index="8" ch1="268032" ch2="-2048"
+ch3="-2048" />
+			<sample index="8" ch1="259072" ch2="-1792"
+ch3="-256" />
+			<sample index="8" ch1="234752" ch2="-1280"
+ch3="0" />
+			<sample index="8" ch1="298496" ch2="-768"
+ch3="-1536" />
+			<sample index="8" ch1="236032" ch2="-1536"
+ch3="-1280" />
+			<sample index="8" ch1="263168" ch2="-1792"
+ch3="-768" />
+			<sample index="8" ch1="260864" ch2="-2560"
+ch3="-512" />
+			<sample index="8" ch1="262144" ch2="-1536"
+ch3="-768" />
+			<sample index="8" ch1="254464" ch2="-1536"
+ch3="-1024" />
+			<sample index="8" ch1="268032" ch2="-1536"
+ch3="-1792" />
+			<sample index="8" ch1="248064" ch2="-256"
+ch3="-768" />
+			<sample index="8" ch1="268032" ch2="-1024"
+ch3="0" />
+			<sample index="8" ch1="262656" ch2="-2048"
+ch3="-1536" />
+			<sample index="8" ch1="249856" ch2="-1792"
+ch3="-1024" />
+			<sample index="8" ch1="265216" ch2="-1024"
+ch3="-1024" />
+			<sample index="8" ch1="262144" ch2="-1280"
+ch3="-768" />
+			<sample index="8" ch1="245248" ch2="-1536"
+ch3="-768" />
+			<sample index="8" ch1="286976" ch2="-1792"
+ch3="-768" />
+			<sample index="8" ch1="233216" ch2="-2816"
+ch3="-1024" />
+		</block>
+
+		<block index="9" time="1650252257">
+			<sample index="9" ch1="269824" ch2="-1792"
+ch3="-1536" />
+			<sample index="9" ch1="271104" ch2="-1280"
+ch3="-2048" />
+			<sample index="9" ch1="232192" ch2="-1024"
+ch3="-512" />
+			<sample index="9" ch1="275456" ch2="-1280"
+ch3="-1024" />
+			<sample index="9" ch1="281088" ch2="-1280"
+ch3="-1024" />
+			<sample index="9" ch1="216576" ch2="-1536"
+ch3="-512" />
+			<sample index="9" ch1="288256" ch2="-1280"
+ch3="-768" />
+			<sample index="9" ch1="253184" ch2="-1792"
+ch3="-2048" />
+			<sample index="9" ch1="262144" ch2="-2048"
+ch3="-768" />
+			<sample index="9" ch1="255488" ch2="-1024"
+ch3="-2048" />
+			<sample index="9" ch1="265728" ch2="-1792"
+ch3="512" />
+			<sample index="9" ch1="251904" ch2="-1792"
+ch3="-1024" />
+			<sample index="9" ch1="264448" ch2="-1024"
+ch3="-1024" />
+			<sample index="9" ch1="260096" ch2="-2560"
+ch3="0" />
+			<sample index="9" ch1="251392" ch2="-256"
+ch3="-1280" />
+			<sample index="9" ch1="263936" ch2="-1280"
+ch3="-512" />
+			<sample index="9" ch1="264192" ch2="-256"
+ch3="-1024" />
+			<sample index="9" ch1="254464" ch2="-1536"
+ch3="-1792" />
+			<sample index="9" ch1="253952" ch2="-768"
+ch3="-1280" />
+			<sample index="9" ch1="272128" ch2="-2048"
+ch3="-512" />
+			<sample index="9" ch1="254208" ch2="-768"
+ch3="-1792" />
+			<sample index="9" ch1="259072" ch2="-1792"
+ch3="-1536" />
+			<sample index="9" ch1="265728" ch2="-512"
+ch3="-768" />
+			<sample index="9" ch1="260352" ch2="-1536"
+ch3="-512" />
+			<sample index="9" ch1="239104" ch2="-1280"
+ch3="-1536" />
+			<sample index="9" ch1="286720" ch2="-1792"
+ch3="-1792" />
+			<sample index="9" ch1="242688" ch2="-768" ch3="0" />
+			<sample index="9" ch1="262400" ch2="-1792"
+ch3="-512" />
+			<sample index="9" ch1="278784" ch2="-1792"
+ch3="-512" />
+			<sample index="9" ch1="223232" ch2="-1792"
+ch3="-1536" />
+			<sample index="9" ch1="286720" ch2="-512"
+ch3="-1024" />
+			<sample index="9" ch1="261120" ch2="-2048"
+ch3="-512" />
+			<sample index="9" ch1="248064" ch2="-1024"
+ch3="-1536" />
+			<sample index="9" ch1="268544" ch2="-2048"
+ch3="-1792" />
+			<sample index="9" ch1="254976" ch2="-512"
+ch3="-1280" />
+			<sample index="9" ch1="255488" ch2="-1792"
+ch3="-1280" />
+			<sample index="9" ch1="271616" ch2="-1280"
+ch3="-512" />
+			<sample index="9" ch1="256512" ch2="-1536"
+ch3="0" />
+			<sample index="9" ch1="252160" ch2="-1024"
+ch3="-768" />
+			<sample index="9" ch1="274944" ch2="-1536"
+ch3="-1536" />
+			<sample index="9" ch1="253440" ch2="-1792"
+ch3="-768" />
+			<sample index="9" ch1="241408" ch2="-2048"
+ch3="-768" />
+			<sample index="9" ch1="286208" ch2="-1024"
+ch3="-768" />
+			<sample index="9" ch1="250368" ch2="-1280"
+ch3="-768" />
+			<sample index="9" ch1="246528" ch2="-512"
+ch3="-512" />
+			<sample index="9" ch1="289280" ch2="-1536"
+ch3="-768" />
+			<sample index="9" ch1="229376" ch2="-1536"
+ch3="-768" />
+			<sample index="9" ch1="274688" ch2="-1792"
+ch3="-256" />
+			<sample index="9" ch1="267520" ch2="-2048"
+ch3="-1280" />
+			<sample index="9" ch1="242944" ch2="-1536"
+ch3="-1280" />
+		</block>
+
+	</rtvalues>
+
+</doc>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc type="STATUS" subtype="GENERAL" date="2022Y-04M-17D 16:41:19">
+	<device name="MCDR2-EB241" model="APATIT06"
+production="2017-09-23" fw="3.10F" />
+	<memory mem="29257 MB" free="12171 MB" />
+	<rtvalues>
+		<rec status="RECORDING" recmode="CONTINUOUS"
+samplerate="100SPS" session="17d 7h 54m 15s" eventcnt="0" rup="OFF"
+rus="OFF" />
+		<event status="N.A." sec="0" />
+		<openfile rup="" rus="" ring=""
+miniseed_00="/media/data3/seed/20220417120000.HN.EB241..EHZ.mseed"
+miniseed_01="/media/data3/seed/20220417120000.HN.EB241..EHN.mseed"
+miniseed_02="/media/data3/seed/20220417120000.HN.EB241..EHE.mseed"
+miniseed_03="" miniseed_04="" miniseed_05="" miniseed_06=""
+miniseed_07="" miniseed_08="" />
+		<gps utc="2022-04-17 16:41:18" lat="55.116238"
+lon="36.576529" alt="182m" sat="11" qlt="1" rec="1" leap="1" />
+		<channel board="0" index="0" name="EHZ_" active="ON"
+rtvalue="0.002439022V" sta="22.95" lta="21.80" stalta="1.05" />
+		<channel board="0" index="1" name="EHN_" active="ON"
+rtvalue="-0.000023842V" sta="1.19" lta="1.16" stalta="1.03" />
+		<channel board="0" index="2" name="EHE_" active="ON"
+rtvalue="-0.000023842V" sta="1.26" lta="1.19" stalta="1.06" />
+		<channel board="0" index="3" name="COE_" active="OFF"
+rtvalue="N.A." />
+		<channel board="0" index="4" name="COZ_" active="OFF"
+rtvalue="N.A." />
+		<channel board="0" index="5" name="CON_" active="OFF"
+rtvalue="N.A." />
+	</rtvalues>
+
+	<battery controller="OK" voltage="8.17" battcurrent="0.83"
+inputvoltage="11.96" inputcurrent="0.27" inputpower="3.23" com="OK"
+watchdog="ON" timeout="OK" charge="FULL" extps="OK" pd="OFF" fw="2" />
+	<gsm cnt="0" fw="0" rssi="0" ber="0" reg="0" operator="" />
+	<network>
+		<interface name="eth0" ip="0.0.0.0" mask="0.0.0.0" />
+		<interface name="wlan0" ip="0.0.0.0" mask="0.0.0.0" />
+		<interface name="ppp0" ip="0.0.0.0" mask="0.0.0.0" />
+	</network>
+
+</doc>

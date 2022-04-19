@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="zlib"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\SFML\;CMake Files\..\..\..\..\SFML\lib\;CMake Files\..\..\..\..\SFML\lib\cmake\;CMake Files\..\..\..\..\SFML\lib\cmake\SFML\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\_deps\;CMake Files\cmake-build-debug\_deps\cpr-src\;CMake Files\cmake-build-debug\_deps\cpr-src\cmake\;CMake Files\cmake-build-debug\_deps\cpr-src\cpr\;CMake Files\cmake-build-debug\_deps\cpr-src\include\;CMake Files\cmake-build-debug\_deps\zlib-src\;CMake Files\cmake-build-debug\_deps\zlib-src\cmake\;CMake Files\cmake-build-debug\_deps\zlib-build\;CMake Files\cmake-build-debug\_deps\curl-src\;CMake Files\cmake-build-debug\_deps\curl-src\CMake\;CMake Files\cmake-build-debug\_deps\curl-src\CMake\Platforms\;CMake Files\cmake-build-debug\_deps\curl-src\lib\;CMake Files\cmake-build-debug\_deps\curl-build\;CMake Files\cmake-build-debug\_deps\curl-build\lib\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlib">
+				<Option output="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug}/libzlib.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCPR_ENABLE_SSL"/>
+					<Add option="-DZLIB_COMPAT"/>
+					<Add option="-DWITH_GZFILEOP"/>
+					<Add option="-DUNALIGNED_OK"/>
+					<Add option="-DUNALIGNED64_OK"/>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add option="-D__USE_LARGEFILE64"/>
+					<Add option="-DHAVE_BUILTIN_CTZ"/>
+					<Add option="-DHAVE_BUILTIN_CTZLL"/>
+					<Add option="-DX86_FEATURES"/>
+					<Add option="-DX86_AVX2"/>
+					<Add option="-DX86_AVX2_ADLER32"/>
+					<Add option="-DX86_AVX_CHUNKSET"/>
+					<Add option="-DX86_SSE42_CRC_HASH"/>
+					<Add option="-DX86_SSE42_CRC_INTRIN"/>
+					<Add option="-DX86_SSE42_CMP_STR"/>
+					<Add option="-DX86_SSE2"/>
+					<Add option="-DX86_SSE2_CHUNKSET"/>
+					<Add option="-DX86_SSE2_SLIDEHASH"/>
+					<Add option="-DX86_SSSE3"/>
+					<Add option="-DX86_SSSE3_ADLER32"/>
+					<Add option="-DX86_PCLMULQDQ_CRC"/>
+					<Add directory="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-build"/>
+					<Add directory="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-build/Makefile&quot;  VERBOSE=1 zlib"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlib/fast">
+				<Option output="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug}/libzlib.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCPR_ENABLE_SSL"/>
+					<Add option="-DZLIB_COMPAT"/>
+					<Add option="-DWITH_GZFILEOP"/>
+					<Add option="-DUNALIGNED_OK"/>
+					<Add option="-DUNALIGNED64_OK"/>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add option="-D__USE_LARGEFILE64"/>
+					<Add option="-DHAVE_BUILTIN_CTZ"/>
+					<Add option="-DHAVE_BUILTIN_CTZLL"/>
+					<Add option="-DX86_FEATURES"/>
+					<Add option="-DX86_AVX2"/>
+					<Add option="-DX86_AVX2_ADLER32"/>
+					<Add option="-DX86_AVX_CHUNKSET"/>
+					<Add option="-DX86_SSE42_CRC_HASH"/>
+					<Add option="-DX86_SSE42_CRC_INTRIN"/>
+					<Add option="-DX86_SSE42_CMP_STR"/>
+					<Add option="-DX86_SSE2"/>
+					<Add option="-DX86_SSE2_CHUNKSET"/>
+					<Add option="-DX86_SSE2_SLIDEHASH"/>
+					<Add option="-DX86_SSSE3"/>
+					<Add option="-DX86_SSSE3_ADLER32"/>
+					<Add option="-DX86_PCLMULQDQ_CRC"/>
+					<Add directory="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-build"/>
+					<Add directory="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-build/Makefile&quot;  VERBOSE=1 zlib/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-build/zconf.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-build/zlib1rc.obj">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-build/zlib1rc.obj.rule">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/adler32.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/adler32_p.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/arch/x86/adler32_avx.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/arch/x86/adler32_ssse3.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/arch/x86/chunkset_avx.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/arch/x86/chunkset_sse.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/arch/x86/compare258_avx.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/arch/x86/compare258_sse.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/arch/x86/crc_folding.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/arch/x86/crc_folding.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/arch/x86/insert_string_sse.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/arch/x86/slide_avx.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/arch/x86/slide_sse.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/arch/x86/x86.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/arch/x86/x86.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/chunkset.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/chunkset_tpl.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/compare258.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/compress.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/crc32.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/crc32_comb.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/crc32_comb_tbl.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/crc32_p.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/crc32_tbl.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/deflate.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/deflate.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/deflate_fast.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/deflate_medium.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/deflate_p.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/deflate_quick.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/deflate_slow.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/functable.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/functable.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/gzguts.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/gzlib.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/gzread.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/gzwrite.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/infback.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/inffast.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/inffast.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/inffixed_tbl.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/inflate.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/inflate.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/inflate_p.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/inftrees.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/inftrees.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/insert_string.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/insert_string_tpl.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/match_tpl.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/trees.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/trees.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/trees_emit.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/trees_tbl.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/uncompr.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/zbuild.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/zendian.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/zlib.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/zutil.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/zutil.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/../../../../SFML/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\SFML\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/../../../../SFML/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\SFML\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/../../../../SFML/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\SFML\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/../../../../SFML/lib/cmake/SFML/SFMLStaticTargets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\SFML\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/../../../../SFML/lib/cmake/SFML/SFMLStaticTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\SFML\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/../../../../SFML/lib/cmake/SFML/SFMLStaticTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\SFML\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/cpr-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\cpr-src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/cpr-src/cmake/clear_variable.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\cpr-src\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/cpr-src/cmake/code_coverage.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\cpr-src\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/cpr-src/cmake/cprver.h.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\cpr-src\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/cpr-src/cmake/sanitizer.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\cpr-src\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/cpr-src/cmake/zlib_external.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\cpr-src\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/cpr-src/cpr/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\cpr-src\cpr\"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/cpr-src/include/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\cpr-src\include\"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\zlib-src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/zlib.pc.cmakein">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\zlib-src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/cmake/detect-arch.c">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\zlib-src\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/cmake/detect-arch.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\zlib-src\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/cmake/detect-coverage.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\zlib-src\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/cmake/detect-install-dirs.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\zlib-src\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-src/cmake/detect-sanitizer.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\zlib-src\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/zlib-build/zconf.h.cmakein">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\zlib-build\"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/curl-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\curl-src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/curl-src/curl-config.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\curl-src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/curl-src/libcurl.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\curl-src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/curl-src/CMake/CurlSymbolHiding.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\curl-src\CMake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/curl-src/CMake/FindLibSSH2.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\curl-src\CMake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/curl-src/CMake/Macros.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\curl-src\CMake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/curl-src/CMake/OtherTests.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\curl-src\CMake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/curl-src/CMake/Utilities.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\curl-src\CMake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/curl-src/CMake/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\curl-src\CMake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/curl-src/CMake/curl-config.cmake.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\curl-src\CMake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/curl-src/CMake/Platforms/WindowsCache.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\curl-src\CMake\Platforms\"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/curl-src/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\curl-src\lib\"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/curl-src/lib/Makefile.inc">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\curl-src\lib\"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/curl-src/lib/curl_config.h.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\curl-src\lib\"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/curl-build/lib/Makefile.inc.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\curl-build\lib\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
