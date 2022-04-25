@@ -3,6 +3,7 @@
 #include <string>
 #include <cpr/cpr.h>
 #include <windows.h>
+#include "sounds.h"
 
 struct STATION_REALTIME_STATUS
 {
@@ -33,8 +34,9 @@ public:
     cpr::Response resp;
     STATION_REALTIME_STATUS station_realtime_status;
     int station_number = 0;
-    std::string station_name = "";
+    std::string station_name = "noname";
     std::string last_time_online = "never";
+    std::vector<int> EHZ, EHN, EHE;
 
 public:
     /// Constructor
@@ -54,10 +56,15 @@ public:
         std::cout << "Input Current: " << station_realtime_status.input_current << std::endl;
     }
 
-///Return recieved info as string
+///Return recieved info realtime status
     void getRealtimeStatusAndParcing()
     {
+        ///mnt/nand/factory_data.xml
         resp = cpr::Get(cpr::Url("http://" + apt_url + "/nand/status/realtime_status.xml"));
+        ///resp = cpr::Get(cpr::Url("http://" + apt_url + "/nand/status/realtime_preview.xml"));
+
+        ///std::cout << resp.text << std::endl;
+
         std::cout << "\nRequest sent to Station: " << station_name << std::endl;
 
         station_realtime_status.responce_status_code = resp.status_code;
@@ -207,4 +214,103 @@ public:
         }
         return;
     }
+
+///Return recieved info realtime preview
+    void getRealtimePreviewAndParcing()
+    {
+        resp = cpr::Get(cpr::Url("http://" + apt_url + "/nand/status/realtime_preview.xml"));
+        //std::cout << resp.text << std::endl;
+
+        std::cout << "\nRequest sent to Station: " << station_name << std::endl;
+
+        station_realtime_status.responce_status_code = resp.status_code;
+
+        if(resp.status_code != 200)
+        {
+            std::cout << "Station OFFLINE\nlast time online: " << last_time_online << std::endl;
+            std::cout << "Error Message: " << resp.error.message << std::endl;
+            std::cout << "NO CONNECTION. Retry to connect...";
+            std::cout << std::endl;
+            Sounds speaker;
+            speaker.offline();
+            return;
+        }
+
+        int start_point;
+        start_point = resp.text.find("block");
+
+        ///Clear recieved data buffer; If ignore then data is collecting
+        EHZ.clear();
+        EHN.clear();
+        EHE.clear();
+
+        for(int i = start_point; i < resp.text.size(); i++)
+        {
+            ///ch1 EHZ parsing
+            if(resp.text[i] == 'c' && resp.text[i+1] == 'h'
+            && resp.text[i+2] == '1' && resp.text[i+3] == '=' && resp.text[i+4] == '"')
+            {
+                std::string tmp = "";
+                for(int j = i + 5; resp.text[j] != '"'; j++)
+                {
+                    tmp += resp.text[j];
+                    if(resp.text[j] == '"')
+                    {
+                        i += j;
+                    }
+                }
+                EHZ.emplace_back(std::stoi(tmp));
+            }
+            ///ch2 EHN parsing
+            if(resp.text[i] == 'c' && resp.text[i+1] == 'h'
+               && resp.text[i+2] == '2' && resp.text[i+3] == '=' && resp.text[i+4] == '"')
+            {
+                std::string tmp = "";
+                for(int j = i + 5; resp.text[j] != '"'; j++)
+                {
+                    tmp += resp.text[j];
+                    if(resp.text[j] == '"')
+                    {
+                        i += j;
+                    }
+                }
+                EHN.emplace_back(std::stoi(tmp));
+            }
+            ///ch3 EHE parsing
+            if(resp.text[i] == 'c' && resp.text[i+1] == 'h'
+               && resp.text[i+2] == '3' && resp.text[i+3] == '=' && resp.text[i+4] == '"')
+            {
+                std::string tmp = "";
+                for(int j = i + 5; resp.text[j] != '"'; j++)
+                {
+                    tmp += resp.text[j];
+                    if(resp.text[j] == '"')
+                    {
+                        i += j;
+                    }
+                }
+                EHE.emplace_back(std::stoi(tmp));
+            }
+        }
+
+        for(int i = 0; i < EHZ.size(); i++)
+        {
+            std:: cout << EHZ[i] << " " << EHN[i] << " " << EHE[i] << std:: endl;
+        }
+        std::cout << std::endl;
+        std::cout << "samples per channel: " << EHZ.size() << " " << EHN.size() << " " << EHE.size() << std::endl;
+
+        ///Check Z channel data when triggered
+        for(int i = 0; i < EHZ.size(); i++)
+        {
+            if(EHZ[i] > 500000)
+            {
+                std::cout << "Triggered level: " << EHZ[i] << " " << "at sample: " << i << std::endl;
+                Sounds speaker;
+                speaker.triggered_z();
+                break;
+            }
+        }
+    }
+
 };

@@ -1,14 +1,44 @@
 #include <iostream>
 #include <vector>
-#include "APT_control.h"
+#include <cmath>
 #include "apt_realtime_status_parcing.h"
+#include "APT_control.h"
 #include <windows.h>
 #include <SFML/Audio.hpp>
+#include <SFML/Window.hpp>
+#include "sounds.h"
+
 
 void print_test(std::string inText)
 {
     std::cout << "print_test: " << inText << std::endl;
 }
+
+
+class Commands
+{
+    std::string task = "show preview data";
+    std::vector<std::string> available_tasks;
+public:
+    Commands()
+    {
+        ;
+    }
+
+    void setTask()
+    {
+        std::string input;
+        std::cout << "type command: ";
+        std::getline(std::cin, input);
+        task = input;
+    }
+
+    std::string getCurrentTask()
+    {
+        return task;
+    }
+
+};
 
 struct STATION
 {
@@ -18,37 +48,15 @@ struct STATION
 
 int main()
 {
+    ///VARIABLES
     std::vector<STATION> ip_addresses;
     std::vector<APATIT*> stations;
     int amount_of_stations = 0;
     std::string ip, station_name;
-    float time_to_sleep = 0.0f;
+    Sounds speaker;
+    Commands command;
 
-    ///REQUEST
-    sf::SoundBuffer sound_buffer_request;
-    if (!sound_buffer_request.loadFromFile("C:\\Users\\Poizone\\CLionProjects\\APT_INFO\\request.flac"))
-        return -1;
-    sf::Sound sound_request;
-    sound_request.setBuffer(sound_buffer_request);
-    sound_request.setVolume(25);
-
-
-    ///ONLINE
-    sf::SoundBuffer sound_buffer_online;
-    if (!sound_buffer_online.loadFromFile("C:\\Users\\Poizone\\CLionProjects\\APT_INFO\\online.flac"))
-        return -1;
-    sf::Sound sound_online;
-    sound_online.setBuffer(sound_buffer_online);
-    sound_online.setVolume(25);
-
-    ///OFFLINE
-    sf::SoundBuffer sound_buffer_offline;
-    if (!sound_buffer_offline.loadFromFile("C:\\Users\\Poizone\\CLionProjects\\APT_INFO\\offline.flac"))
-        return -1;
-    sf::Sound sound_offline;
-    sound_offline.setBuffer(sound_buffer_offline);
-    sound_offline.setVolume(25);
-
+    ///READ AVAILABLE STATIONS
     std::ifstream my_file;
     my_file.open("C:\\Users\\Poizone\\CLionProjects\\APT_INFO\\list.txt"); /* set your path on your machine*/
     while(!my_file.eof())
@@ -62,6 +70,7 @@ int main()
     }
     my_file.close();
 
+    ///GENERATE VECTOR OF STATIONS TO GET INFO
     for(int i = 0; i < amount_of_stations; i++)
     {
         APATIT* apt = new APATIT(i,ip_addresses[i].station_name, ip_addresses[i].ip);
@@ -71,31 +80,62 @@ int main()
     ///RUN
     while(true)
     {
-        for(int i = 0; i < stations.size(); i++)
-        {
-            stations[i]->getRealtimeStatusAndParcing();
-            sound_request.play();
-            Sleep(3000);
+        std::cout << "Current Task: " << command.getCurrentTask() << std::endl;
 
-            if(stations[i]->station_realtime_status.responce_status_code == 200)
+        if (sf::Keyboard::isKeyPressed(sf::Keyboard::Escape))
+        {
+            command.setTask();
+        }
+
+        ///Status Info Section
+        if(command.getCurrentTask() == "show status")
+        {
+            for(int i = 0; i < stations.size(); i++)
             {
-                stations[i]->printStatusInfo();
-                sound_online.play();
-            }
-            else if(stations[i]->station_realtime_status.responce_status_code == 0)
-            {
-                sound_offline.play();
+                stations[i]->getRealtimeStatusAndParcing();
+                speaker.request();
+
+                if(stations[i]->station_realtime_status.responce_status_code == 200)
+                {
+                    stations[i]->printStatusInfo();
+                    speaker.online();
+                }
+                else if(stations[i]->station_realtime_status.responce_status_code == 0)
+                {
+                    speaker.offline();
+                }
+
+                /// Test Input Current
+                if(stations[i]->station_realtime_status.input_current < 0.25f)
+                {
+                    speaker.low_current();
+                }
+
+                ///SLEEP for a while
+                std::cout << "/";
+                Sleep(1000);
+                std::cout << std::endl;
             }
         }
-        std::cout << std::endl;
 
-        ///SLEEP for a while
-        for(int i = 0 ; i < 10; i++)
+        ///Preview Info Section
+        if(command.getCurrentTask() == "show preview data")
         {
-            Sleep(500);
+            for(int i = 0; i < stations.size(); i++)
+            {
+                speaker.request();
+                stations[i]->getRealtimePreviewAndParcing();
+            }
+
+            ///SLEEP for a while
             std::cout << "/";
+            Sleep(1000);
+            std::cout << std::endl;
         }
+
         std::cout << std::endl;
+
+
     }
     ///END OF RUN
 

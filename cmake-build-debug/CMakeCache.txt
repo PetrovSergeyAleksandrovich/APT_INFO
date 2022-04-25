@@ -657,6 +657,9 @@ PICKY_COMPILER:BOOL=ON
 //Installation directory for pkgconfig (.pc) files
 PKGCONFIG_INSTALL_DIR:PATH=C:/Program Files (x86)/APT_INFO/lib/pkgconfig
 
+//The directory containing a CMake configuration file for Probe.
+Probe_DIR:PATH=Probe_DIR-NOTFOUND
+
 //Path to a file.
 RANDOM_FILE:FILEPATH=RANDOM_FILE-NOTFOUND
 

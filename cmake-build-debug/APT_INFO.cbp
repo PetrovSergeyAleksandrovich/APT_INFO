@@ -96,10 +96,11 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/SFML/include"/>
+					<Add option="-DSFML_STATIC"/>
 					<Add directory="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/cpr-src/include"/>
 					<Add directory="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/cpr-build/cpr_generated_includes"/>
 					<Add directory="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/curl-src/include"/>
+					<Add directory="C:/SFML/include"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -121,10 +122,11 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/SFML/include"/>
+					<Add option="-DSFML_STATIC"/>
 					<Add directory="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/cpr-src/include"/>
 					<Add directory="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/cpr-build/cpr_generated_includes"/>
 					<Add directory="C:/Users/Poizone/CLionProjects/APT_INFO/cmake-build-debug/_deps/curl-src/include"/>
+					<Add directory="C:/SFML/include"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -1621,6 +1623,9 @@
 		</Unit>
 		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/probe.cpp">
 			<Option target="Probe"/>
+		</Unit>
+		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/sounds.h">
+			<Option target="APT_INFO"/>
 		</Unit>
 		<Unit filename="C:/Users/Poizone/CLionProjects/APT_INFO/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
