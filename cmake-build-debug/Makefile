@@ -74,17 +74,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"D:\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	"D:\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+.PHONY : install
 
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"D:\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	"D:\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+.PHONY : install/fast
 
 # Special rule for the target install/local
 install/local: preinstall
@@ -97,18 +97,6 @@ install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
 	"D:\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
-
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"D:\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"D:\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
-.PHONY : install/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -128,6 +116,18 @@ list_install_components:
 # Special rule for the target list_install_components
 list_install_components/fast: list_install_components
 .PHONY : list_install_components/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	"D:\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	"D:\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -185,6 +185,19 @@ Probe: cmake_check_build_system
 Probe/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Probe.dir\build.make CMakeFiles/Probe.dir/build
 .PHONY : Probe/fast
+
+#=============================================================================
+# Target rules for targets named Testing
+
+# Build rule for target.
+Testing: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Testing
+.PHONY : Testing
+
+# fast build rule for target.
+Testing/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Testing.dir\build.make CMakeFiles/Testing.dir/build
+.PHONY : Testing/fast
 
 #=============================================================================
 # Target rules for targets named zlib
@@ -286,6 +299,30 @@ probe.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Probe.dir\build.make CMakeFiles/Probe.dir/probe.cpp.s
 .PHONY : probe.cpp.s
 
+testing.obj: testing.cpp.obj
+.PHONY : testing.obj
+
+# target to build an object file
+testing.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Testing.dir\build.make CMakeFiles/Testing.dir/testing.cpp.obj
+.PHONY : testing.cpp.obj
+
+testing.i: testing.cpp.i
+.PHONY : testing.i
+
+# target to preprocess a source file
+testing.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Testing.dir\build.make CMakeFiles/Testing.dir/testing.cpp.i
+.PHONY : testing.cpp.i
+
+testing.s: testing.cpp.s
+.PHONY : testing.s
+
+# target to generate assembly for a file
+testing.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Testing.dir\build.make CMakeFiles/Testing.dir/testing.cpp.s
+.PHONY : testing.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -301,6 +338,7 @@ help:
 	@echo ... uninstall
 	@echo ... APT_INFO
 	@echo ... Probe
+	@echo ... Testing
 	@echo ... cpr
 	@echo ... libcurl
 	@echo ... zlib
@@ -310,6 +348,9 @@ help:
 	@echo ... probe.obj
 	@echo ... probe.i
 	@echo ... probe.s
+	@echo ... testing.obj
+	@echo ... testing.i
+	@echo ... testing.s
 .PHONY : help
 
 

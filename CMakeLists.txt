@@ -13,8 +13,9 @@ set(SFML_STATIC_LIBRARIES TRUE)
 set(SFML_DIR C:/SFML/lib/cmake/SFML)
 
 
-add_executable(APT_INFO main.cpp APT_control.h apt_realtime_status_parcing.h sounds.h)
+add_executable(APT_INFO main.cpp headers/APT_control.h headers/sounds.h )
 add_executable(Probe probe.cpp)
+add_executable(Testing testing.cpp)
 
 #CPR SECTION
 include(FetchContent)
@@ -23,6 +24,7 @@ FetchContent_Declare(cpr GIT_REPOSITORY https://github.com/libcpr/cpr.git
 FetchContent_MakeAvailable(cpr)
 target_link_libraries(APT_INFO PRIVATE cpr::cpr sfml-audio sfml-graphics sfml-network sfml-system sfml-window)
 target_link_libraries(Probe PRIVATE cpr::cpr sfml-audio sfml-graphics sfml-network sfml-system sfml-window)
+target_link_libraries(Testing PRIVATE cpr::cpr sfml-audio sfml-graphics sfml-network sfml-system sfml-window)
 
 
 #SFML SECTION
